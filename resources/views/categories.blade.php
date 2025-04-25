@@ -2,7 +2,7 @@
 
 @section('header')
 
-<link rel="stylesheet" href="{{ url('styles/categories.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ url('css/categories.css') }}" type="text/css">
 <title>NdopShop - Categories</title>
 
 @endsection
@@ -15,6 +15,6 @@
 
 @section('script')
 
-<script src="{{ url('script/layout.js') }}"  type="text/javascript"></script>
+<script src="{{ url('js/layout.js') }}"  type="text/javascript"></script>
 
 @endsection
