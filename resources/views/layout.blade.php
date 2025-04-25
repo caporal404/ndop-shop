@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="{{ asset('lib/fontawesome/css/all.min.css') }}" type="text/css">
     <script href="{{ asset('lib/fontawesome/js/all.min.js') }}" type="text/javascript"></script>
     <!--  -->
+
+    <!-- Bootstrap CSS et JS -->
+    <link rel="stylesheet" href="{{ asset('lib/bootstrap/css/bootstrap.min.css') }}" type="text/css">
+    <script href="{{ asset('lib/bootstrap/js/bootstrap.bundle.min.js') }}" type="text/javascript"></script>
+    <!--  -->
     
     <!-- Fichier CSS -->
     <link rel="stylesheet" href="{{ asset('css/layout.css') }}" type="text/css">
