@@ -2,7 +2,7 @@
 
 @section('header')
 
-<link rel="stylesheet" href="{{ url('css/home.css') }}" type="text/css">
+<link rel="stylesheet" href="{{ asset('css/home.css') }}" type="text/css">
 <title>NdopShop - Acceuil</title>
 
 @endsection
@@ -27,7 +27,7 @@
 
 @section('script')
 
-<script src="{{ url('js/home.js') }}" type="text/javascript"></script>
+<script src="{{ asset('js/home.js') }}" type="text/javascript"></script>
 
 @endsection
 

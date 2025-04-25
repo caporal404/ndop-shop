@@ -66,7 +66,7 @@
     <!--  -->
 
 	<!-- Fichier JS -->
-    <script src="{{ url('js/layout.js') }}"  type="text/javascript"></script>
+    <script src="{{ asset('js/layout.js') }}"  type="text/javascript"></script>
 	<!--  -->
 
     <!-- Js dynamique -->
