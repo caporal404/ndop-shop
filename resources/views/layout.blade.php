@@ -6,21 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Fontawesome CSS et JS -->
-    <link rel="stylesheet" href="{{ asset('fonts/fontawesome/css/all.min.css') }}" type="text/css">
-    <script href="{{ asset('fonts/fontawesome/js/all.min.js') }}" type="text/javascript"></script>
+    <link rel="stylesheet" href="{{ asset('lib/fontawesome/css/all.min.css') }}" type="text/css">
+    <script href="{{ asset('lib/fontawesome/js/all.min.js') }}" type="text/javascript"></script>
     <!--  -->
     
     <!-- Fichier CSS -->
-    <link rel="stylesheet" href="{{ url('css/layout.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('css/layout.css') }}" type="text/css">
     <!--  -->
 
     <!-- Entête dynamique -->
     @yield('header')
     <!--  -->
-
-    <!-- @if (app()->environment('local'))
-        <script async src="http://localhost:3000/browser-sync/browser-sync-client.js"></script>
-    @endif -->
 
 </head>
 <body>
